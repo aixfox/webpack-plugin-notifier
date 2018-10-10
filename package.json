@@ -1,0 +1,26 @@
+{
+  "name": "webpack-plugin-notify",
+  "version": "1.0.0",
+  "description": "notify for webpack compiler hooks",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib -s"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "notifier"
+  ],
+  "author": "aixfox",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "dependencies": {
+    "node-notifier": "^5.2.1"
+  }
+}
